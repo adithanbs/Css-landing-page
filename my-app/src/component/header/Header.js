@@ -38,6 +38,7 @@ const [togglename,setToggleNAme] = useState("mySidenav");
 
 return (
     <>
+    <nav>
   <div className = "header">
   <div className = "header__inner">
   <div className = "header__inner__logo">
@@ -67,7 +68,7 @@ return (
       <div>About Us</div>
   </div>
   </div>
-
+  </nav>
     </>
 );
 };
